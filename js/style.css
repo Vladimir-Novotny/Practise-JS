@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+#container{
+    width: 970px;
+    /* border: grey solid 1px; */
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+/*  navigation panel   */
+
+.nav{
+    
+    width: 100%;
+    font-size: 16px;
+    color: white;
+    
+    
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li{
+    list-style-type: none;
+    margin: 0 30px 30px 0;
+}
+
+/*  color   */
+.air-blue{
+    color: #4deeea;
+}
+
+.lime-grean{
+    color: #74ee15;
+}
+
+.yellow{
+    color: #ffe700;
+}
+
+.pink{
+    color: #f000ff;
+}
+
+.blue{
+    color:#001eff ;
+}
+
+/*  Box size   */
+.box{
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+}
+
+/* Color */
+.air-blue.box{
+    border: #4deeea solid 1px;
+}
+
+.lime-grean.box{
+    border: #74ee15 solid 1px;
+}
+
+.yellow.box{
+    border: #ffe700 solid 1px;
+}
+
+.pink.box{
+    border: #f000ff solid 1px;
+}
+
+.blue.box{
+    border: #001eff solid 1px;
+}
+
+/*  hover   */
+li:hover{
+    cursor: pointer;
+}
+
+/*  animation   */
+
+.hide {
+    animation-name: filter;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    
+}
+  @keyframes filter{
+    
+    to{
+        opacity: 0;
+        height: 0; 
+        width: 0;
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+}
